@@ -1,8 +1,15 @@
 const { Router } = require("express");
 const router = Router();
 
-router.get("/peliculas", (req, res) => {
-  res, send("peliculas");
+const peliculas = require("../ejemplo.json");
+
+router.get("/", (req, res) => {
+  res.json(peliculas);
+});
+
+router.post("/", (req, res) => {
+  console.log(req.body);
+  res.send("recibido");
 });
 
 module.exports = router;

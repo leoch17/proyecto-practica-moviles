@@ -12,7 +12,7 @@ app.use(express.json());
 
 //rutas
 app.use(require("./rutas/index"));
-app.use(require("./rutas/peliculas"));
+app.use("/api/peliculas", require("./rutas/peliculas"));
 
 //Comenzando el servidor
 app.listen(app.get("port"), () => {

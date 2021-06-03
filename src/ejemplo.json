@@ -1,0 +1,29 @@
+[
+    {
+        "id":"1",
+        "Titulo":"Sueños de fuga",
+        "Director":"Frank Darabont",
+        "Año de estreno":"1994",
+        "Premios":"2",
+        "Nominaciones":"14",
+        "Calificación":"4/5"
+    },
+    {
+        "id":"2",
+        "Titulo":"IT:Eso",
+        "Director":"Andrés Muschietti",
+        "Año de estreno":"2017",
+        "Premios":"1",
+        "Nominaciones":"1",
+        "Calificación":"4.1/5"
+    },
+    {
+        "id":"3",
+        "Titulo":"Step Up: All In",
+        "Director":"Trish Sia",
+        "Año de estreno":"2014",
+        "Premios":"4",
+        "Nominaciones":"4",
+        "Calificación":"6/10"
+    }
+]
